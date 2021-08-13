@@ -1,0 +1,42 @@
+<div class="container col-md-6">
+    <div class="card">
+        <div class="card-header">
+            <h3>Modificar Cliente</h3>
+        </div>
+        <div class="card-body">
+            <form action="">
+                <div class="form-group">
+                    <label for="">Nombre:</label>
+                    <input type="text" [(ngModel)]="modelCliente.nombre" name="nombre" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">Apellidos:</label>
+                    <input type="text" [(ngModel)]="modelCliente.apellidos" name="apellidos" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">Ruc:</label>
+                    <input type="text" [(ngModel)]="modelCliente.ruc" name="ruc" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">DNI:</label>
+                    <input type="text" [(ngModel)]="modelCliente.dni" name="dni" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">Direccion:</label>
+                    <input type="text" [(ngModel)]="modelCliente.direccion" name="direccion" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">Telefono:</label>
+                    <input type="text" [(ngModel)]="modelCliente.telefono" name="telefono" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">Distrito:</label>
+                    <input type="text" [(ngModel)]="modelCliente.distrito" name="distrito" class="form-control">
+                </div>
+                <br>
+                <br>
+                <button (click)="modificarCliente()" class="btn btn-danger">Guardar</button>
+            </form>
+        </div>
+    </div>
+</div>

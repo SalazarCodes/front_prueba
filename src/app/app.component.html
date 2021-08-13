@@ -1,0 +1,12 @@
+<div style="text-align: center; margin-bottom: 5%;">
+  <h3 style="text-align: center;">Bienvenido al mantenimiento de clientes</h3>
+  <img alt="imgName" src="./assets/images/mantenimiento.jpg">
+</div>
+
+<div class="container" style="text-align: center; margin-bottom: 2%;">
+  <button (click)="listarClientes()" class="btn btn-info">Listar Clientes</button>
+  <button (click)="agregarCliente()" class="btn btn-info" style="margin-left: 5%;">Nuevo Cliente</button>
+  <button (click)="listarProductos()" class="btn btn-info" style="margin-left: 5%;">Listar Productos</button>
+  <button (click)="agregarProductos()" class="btn btn-info" style="margin-left: 5%;">Nuevo Producto</button>
+</div>
+<router-outlet></router-outlet>
